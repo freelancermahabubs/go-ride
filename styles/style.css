@@ -1,0 +1,80 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Nav Butoon Styles Here */
+.btn-loing{
+  background-color: #E76F51;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+}
+/* Nav Logo Styles Here */
+.go-ride-logo{
+  font-weight: 700;
+  font-size: 35px;
+  color: #fff;
+}
+/* Nav Items Styles Here */
+.go-ride-nav-items {
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+}
+/* Banner Styles Here */
+#banner{
+  background-image: linear-gradient(90deg, #181818 0%, rgba(24, 24, 24, 0.822917) 24.48%, rgba(24, 24, 24, 0) 100%), url('/images/Rectangle\ 4705.png');
+  background-repeat: no-repeat;
+  position: block;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  margin-bottom: 12px;
+  
+}
+/* mobile Device styles here  */
+@media only screen and (max-width:576px){
+  #banner{
+    height: 300px !important;
+    width: 100% !important;
+  }
+}
+/* Tablet device Styles Here */
+@media only screen and (min-width:577px) and (max-width:992px){
+  #banner{
+    height: 400px !important;
+    width: 100% !important;
+  } 
+}
+/* Banner info styles Here */
+@media only screen and (max-width:576px){
+  .banner-info{
+   width: 350px !important;
+    height: 80px !important;
+    margin-top: -50px !important;
+    margin-left: 10px !important;
+  }
+  p{
+    font-size: 12px !important;
+  }
+}
+/* Tablet device Styles Here */
+@media only screen and (min-width:577px) and (max-width:992px){
+    .banner-info{
+    padding-top: 1rem !important;
+    width: 350px !important;
+    height: 80px !important;
+    margin-left: 3rem !important;
+  }
+  p{
+    font-size: 15px !important;
+  }
+}
+
+.hr-line{
+  border: 1px solid #E76F51;
+}
+  
